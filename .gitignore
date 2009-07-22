@@ -2,8 +2,9 @@
 *.[oa]
 *.obj
 *.pdb
-/src/Release
-/src/*.sdf
-/src/*.opensdf
-/src/ipch
+*.so
+Makefile
+*.def
+*.exp
+*.lib
 gem_files
