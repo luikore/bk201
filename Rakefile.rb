@@ -6,7 +6,7 @@ task :'bk201.gemspec' do
   # add include files
   gs = File.read 'bk201.gemspec'
   files = Dir.glob("{lib}/**/*").
-    select{|f| f=~ /\.(rb|c|rdoc|bat)/}.
+    select{|f| f=~ /\.(rb|rdoc|bat)/}.
     map{|e|"\"#{e}\""}.join(',')
   gs.sub! /\ \ files\ =\ \[.+?\]/, "  files = [#{files}]"
 
