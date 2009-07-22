@@ -1,12 +1,15 @@
 = bk201
 
 In-memory asm to binary compiler, so you can use asm in ruby !
+
 currently win XP and ruby1.9 only (due to runnable memory alloc issues)
+
 an asm DSL is under development
 
 = requirement
 
 32-bit x86 machine (still learning 64-bit machine code ..)
+
 a C compiler when installing (not required when running)
 
 = example
