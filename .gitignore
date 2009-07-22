@@ -1,0 +1,9 @@
+*.sdf
+*.[oa]
+*.obj
+*.pdb
+/src/Release
+/src/*.sdf
+/src/*.opensdf
+/src/ipch
+gem_files
