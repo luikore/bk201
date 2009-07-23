@@ -1,2 +1,2 @@
 require 'mkmf'
-create_makefile 'bk201_ext'
+create_makefile 'ext/bk201_ext'
