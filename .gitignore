@@ -1,0 +1,10 @@
+*.sdf
+*.[oa]
+*.obj
+*.pdb
+*.so
+Makefile
+*.def
+*.exp
+*.lib
+gem_files
